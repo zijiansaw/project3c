@@ -1,6 +1,9 @@
 //This is a comment from Professor Urness
 //You should put your names in comments...
 
+//This is Project 3C (Midwest : Hell Yes! by Larry, Paxton and Giuliani.
+
+
 package edu.drake.project3c;
 
 import java.text.SimpleDateFormat;
@@ -60,34 +63,6 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 			}
 		});
 		
-		/*
-		dailyView = (ImageView) findViewById(R.id.dailyView);
-		int images[] = {getResources().getIdentifier("drawable/animal1", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal2", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal3", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal4", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal5", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal6", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal7", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal8", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal9", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal10", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal11", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal12", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal13", null, getPackageName()),
-				getResources().getIdentifier("drawable/animal14", null, getPackageName())};
-		
-		Calendar dayOfYear = Calendar.getInstance();
-		int currentDayOfYear = dayOfYear.get(Calendar.DAY_OF_YEAR);
-		Toast.makeText(this, "Number of days : "+currentDayOfYear, Toast.LENGTH_SHORT).show();
-		
-		dailyView.setImageResource(images[currentDayOfYear-330]);	
-		
-		SimpleDateFormat df = new SimpleDateFormat("MMMM dd, yyyy");
-		String date = df.format(dayOfYear.getTime());
-		setTitle(date);
-		 */
-
 	}
 
 	@Override

@@ -24,7 +24,9 @@
         android:layout_height="90dp"
         android:layout_alignBottom="@+id/imageButton1"
         android:layout_toLeftOf="@+id/imageButton1"
-        android:background="@drawable/star" />
+        android:background="@drawable/star"
+        android:textOn=""
+        android:textOff="" />
 
     <ImageButton
         android:id="@+id/imageButton1"

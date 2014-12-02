@@ -10,7 +10,14 @@ public class SecondFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
 	{
-		return inflater.inflate(R.layout.activity_second_tab, container,false);
+		View view = inflater.inflate(R.layout.activity_second_tab, container,false);
+		
+		//put your codes here
+		//if you want to initialize image/buttons, insert view. in front of findViewById 
+		//refer to FirstFragment for some help =)
+		//by Larry
+		
+		return view;
 		
 	}
 
