@@ -1,3 +1,6 @@
+//This is a comment from Professor Urness
+//You should put your names in comments...
+
 package edu.drake.project3c;
 
 import java.text.SimpleDateFormat;
