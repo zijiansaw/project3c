@@ -27,7 +27,7 @@
             	android:layout_width="match_parent"
             	android:layout_height="wrap_content"
             	android:adjustViewBounds="true"
-            	android:src="@drawable/animal1"
+            	android:src="@drawable/fact2"
             	android:layout_below="@+id/imageView1a" />
             
             <ImageView
@@ -43,7 +43,7 @@
             	android:layout_width="match_parent"
             	android:layout_height="wrap_content"
             	android:adjustViewBounds="true"
-            	android:src="@drawable/animal1"
+            	android:src="@drawable/fact3"
             	android:layout_below="@+id/imageView2a" />
             
             <ImageView
@@ -59,7 +59,7 @@
             	android:layout_width="match_parent"
             	android:layout_height="wrap_content"
             	android:adjustViewBounds="true"
-            	android:src="@drawable/animal1"
+            	android:src="@drawable/fact4"
             	android:layout_below="@+id/imageView3a" />
             
             <ImageView
@@ -75,7 +75,7 @@
             	android:layout_width="match_parent"
             	android:layout_height="wrap_content"
             	android:adjustViewBounds="true"
-            	android:src="@drawable/animal1"
+            	android:src="@drawable/fact5"
             	android:layout_below="@+id/imageView4a" />
             
             <ImageView
