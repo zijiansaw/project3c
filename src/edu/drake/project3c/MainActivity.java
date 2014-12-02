@@ -116,6 +116,14 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         startActivity(launchBrowser);
     }   
 	
-
+    public void share(View view){
+    	Intent shareIntent = new Intent();
+    	shareIntent.setAction(Intent.ACTION_SEND);
+    	Uri imageUri = Uri.parse("android.resource://edu.drake.project3c/drawable/animal1");
+    	shareIntent.putExtra(Intent.EXTRA_STREAM, imageUri);
+    	shareIntent.setType("image/png");
+    	startActivity(Intent.createChooser(shareIntent, "MidWest Hell Yes!"));
+    	
+    }
 	
 }
