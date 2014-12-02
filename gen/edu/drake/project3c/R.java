@@ -1092,19 +1092,27 @@ containing a value of this type.
         public static final int animal8=0x7f020063;
         public static final int animal9=0x7f020064;
         public static final int background=0x7f020065;
-        public static final int btn_rating_star_off_normal=0x7f020066;
-        public static final int btn_rating_star_off_pressed=0x7f020067;
-        public static final int friday=0x7f020068;
-        public static final int ic_launcher=0x7f020069;
-        public static final int monday=0x7f02006a;
-        public static final int saturday=0x7f02006b;
-        public static final int share=0x7f02006c;
-        public static final int shop=0x7f02006d;
-        public static final int star=0x7f02006e;
-        public static final int sunday=0x7f02006f;
-        public static final int thursday=0x7f020070;
-        public static final int tuesday=0x7f020071;
-        public static final int wednesday=0x7f020072;
+        public static final int blank=0x7f020066;
+        public static final int btn_rating_star_off_normal=0x7f020067;
+        public static final int btn_rating_star_off_pressed=0x7f020068;
+        public static final int friday=0x7f020069;
+        public static final int ic_launcher=0x7f02006a;
+        public static final int image1=0x7f02006b;
+        public static final int image2=0x7f02006c;
+        public static final int image3=0x7f02006d;
+        public static final int image4=0x7f02006e;
+        public static final int image_error=0x7f02006f;
+        public static final int monday=0x7f020070;
+        public static final int saturday=0x7f020071;
+        public static final int share=0x7f020072;
+        public static final int shop=0x7f020073;
+        public static final int star=0x7f020074;
+        public static final int sunday=0x7f020075;
+        public static final int temp_arw1=0x7f020076;
+        public static final int temp_arw2=0x7f020077;
+        public static final int thursday=0x7f020078;
+        public static final int tuesday=0x7f020079;
+        public static final int wednesday=0x7f02007a;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1118,10 +1126,11 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f05004f;
+        public static final int action_settings=0x7f050055;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
+        public static final int buffer=0x7f050052;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int dailyView=0x7f05003c;
@@ -1141,6 +1150,10 @@ containing a value of this type.
         public static final int image=0x7f050027;
         public static final int imageButton1=0x7f05003d;
         public static final int imageButton2=0x7f05003e;
+        public static final int imageButton3=0x7f05004f;
+        public static final int imageButton4=0x7f050050;
+        public static final int imageButton5=0x7f050053;
+        public static final int imageButton6=0x7f050054;
         public static final int imageView1=0x7f050042;
         public static final int imageView1a=0x7f050041;
         public static final int imageView2=0x7f050044;
@@ -1165,6 +1178,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f05002f;
+        public static final int reset=0x7f050051;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
         public static final int search_button=0x7f050033;
@@ -2669,7 +2683,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x0101052f
+            0x0101012f, 0x01010130, 0x01010131, 0x01010435
         };
         /**
           <p>
