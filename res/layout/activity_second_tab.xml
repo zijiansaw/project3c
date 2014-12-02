@@ -91,7 +91,7 @@
             	android:layout_width="match_parent"
             	android:layout_height="wrap_content"
             	android:adjustViewBounds="true"
-            	android:src="@drawable/animal1"
+            	android:src="@drawable/fact6"
             	android:layout_below="@+id/imageView5a" />
             
             <ImageView
@@ -107,7 +107,7 @@
             	android:layout_width="match_parent"
             	android:layout_height="wrap_content"
             	android:adjustViewBounds="true"
-            	android:src="@drawable/animal1"
+            	android:src="@drawable/fact7"
             	android:layout_below="@+id/imageView6a" />
             
             <ImageView
@@ -123,7 +123,7 @@
             	android:layout_width="match_parent"
             	android:layout_height="wrap_content"
             	android:adjustViewBounds="true"
-            	android:src="@drawable/animal1"
+            	android:src="@drawable/fact8"
             	android:layout_below="@+id/imageView7a" />
         
         </RelativeLayout>
