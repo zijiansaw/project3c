@@ -133,31 +133,248 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/imageView1"
-                android:layout_alignParentLeft="true"
-                android:layout_marginBottom="20dp"
+        		android:layout_alignLeft="@+id/imageView1"
+       			android:layout_marginBottom="40dp"
+       			android:layout_marginLeft="22dp"
                 android:src="@drawable/shop"
                 android:clickable="true"
                 android:onClick="goToRayGun" />
-
-            <ToggleButton
-                android:id="@+id/favorite1"
-                android:layout_width="100dp"
-                android:layout_height="90dp"
-                android:layout_alignBottom="@+id/imageView1"
-                android:layout_toRightOf="@+id/imageView6a"
-                android:background="@drawable/star" 
-                android:textOn=""
-        		android:textOff="" />
 
             <ImageView
                 android:id="@+id/share1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
+                android:layout_alignRight="@+id/imageView1"
                 android:layout_alignTop="@+id/shop1"
+                android:layout_marginRight="22dp"
                 android:clickable="true"
                 android:onClick="share"
                 android:src="@drawable/share" />
+            
+            <ToggleButton
+                android:id="@+id/favorite1"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_alignBottom="@+id/imageView1"
+                android:layout_marginBottom="35dp"
+                android:layout_alignRight="@+id/share1"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/star" 
+                android:textOn=""
+        		android:textOff="" />
+            
+           <ImageView
+                android:id="@+id/shop2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView2"
+        		android:layout_alignLeft="@+id/imageView2"
+       			android:layout_marginBottom="45dp"
+       			android:layout_marginLeft="22dp"
+                android:src="@drawable/shop"
+                android:clickable="true"
+                android:onClick="goToRayGun" />
+
+            <ImageView
+                android:id="@+id/share2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imageView2"
+                android:layout_alignTop="@+id/shop2"
+                android:layout_marginRight="22dp"
+                android:clickable="true"
+                android:onClick="share"
+                android:src="@drawable/share" />
+            
+            <ToggleButton
+                android:id="@+id/favorite2"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_alignBottom="@+id/imageView2"
+                android:layout_marginBottom="40dp"
+                android:layout_alignRight="@+id/share2"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/star" 
+                android:textOn=""
+        		android:textOff="" />
+            
+             <ImageView
+                android:id="@+id/shop3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+        		android:layout_alignLeft="@+id/imageView3"
+       			android:layout_marginBottom="50dp"
+       			android:layout_marginLeft="22dp"
+                android:src="@drawable/shop"
+                android:clickable="true"
+                android:onClick="goToRayGun" />
+
+            <ImageView
+                android:id="@+id/share3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imageView3"
+                android:layout_alignTop="@+id/shop3"
+                android:layout_marginRight="22dp"
+                android:clickable="true"
+                android:onClick="share"
+                android:src="@drawable/share" />
+            
+            <ToggleButton
+                android:id="@+id/favorite3"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_marginBottom="45dp"
+                android:layout_alignRight="@+id/share3"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/star" 
+                android:textOn=""
+        		android:textOff="" />
+            
+              <ImageView
+                android:id="@+id/shop4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView4"
+        		android:layout_alignLeft="@+id/imageView4"
+       			android:layout_marginBottom="40dp"
+       			android:layout_marginLeft="22dp"
+                android:src="@drawable/shop"
+                android:clickable="true"
+                android:onClick="goToRayGun" />
+
+            <ImageView
+                android:id="@+id/share4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imageView4"
+                android:layout_alignTop="@+id/shop4"
+                android:layout_marginRight="22dp"
+                android:clickable="true"
+                android:onClick="share"
+                android:src="@drawable/share" />
+            
+            <ToggleButton
+                android:id="@+id/favorite4"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_alignBottom="@+id/imageView4"
+                android:layout_marginBottom="35dp"
+                android:layout_alignRight="@+id/share4"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/star" 
+                android:textOn=""
+        		android:textOff="" />
+            
+               <ImageView
+                android:id="@+id/shop5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView5"
+        		android:layout_alignLeft="@+id/imageView5"
+       			android:layout_marginBottom="40dp"
+       			android:layout_marginLeft="22dp"
+                android:src="@drawable/shop"
+                android:clickable="true"
+                android:onClick="goToRayGun" />
+
+            <ImageView
+                android:id="@+id/share5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imageView5"
+                android:layout_alignTop="@+id/shop5"
+                android:layout_marginRight="22dp"
+                android:clickable="true"
+                android:onClick="share"
+                android:src="@drawable/share" />
+            
+            <ToggleButton
+                android:id="@+id/favorite5"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_alignBottom="@+id/imageView5"
+                android:layout_marginBottom="35dp"
+                android:layout_alignRight="@+id/share5"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/star" 
+                android:textOn=""
+        		android:textOff="" />
+            
+              <ImageView
+                android:id="@+id/shop6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView6"
+        		android:layout_alignLeft="@+id/imageView6"
+       			android:layout_marginBottom="40dp"
+       			android:layout_marginLeft="22dp"
+                android:src="@drawable/shop"
+                android:clickable="true"
+                android:onClick="goToRayGun" />
+
+            <ImageView
+                android:id="@+id/share6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imageView6"
+                android:layout_alignTop="@+id/shop6"
+                android:layout_marginRight="22dp"
+                android:clickable="true"
+                android:onClick="share"
+                android:src="@drawable/share" />
+            
+              <ToggleButton
+                android:id="@+id/favorite6"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_alignBottom="@+id/imageView6"
+                android:layout_marginBottom="35dp"
+                android:layout_alignRight="@+id/share6"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/star" 
+                android:textOn=""
+        		android:textOff="" />
+            
+            
+             <ImageView
+                android:id="@+id/shop7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView7"
+        		android:layout_alignLeft="@+id/imageView7"
+       			android:layout_marginBottom="40dp"
+       			android:layout_marginLeft="22dp"
+                android:src="@drawable/shop"
+                android:clickable="true"
+                android:onClick="goToRayGun" />
+
+            <ImageView
+                android:id="@+id/share7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imageView7"
+                android:layout_alignTop="@+id/shop7"
+                android:layout_marginRight="22dp"
+                android:clickable="true"
+                android:onClick="share"
+                android:src="@drawable/share" />
+            
+            <ToggleButton
+                android:id="@+id/favorite7"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_alignBottom="@+id/imageView7"
+                android:layout_marginBottom="35dp"
+                android:layout_alignRight="@+id/share7"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/star" 
+                android:textOn=""
+        		android:textOff="" />
+            
+
 
         </RelativeLayout>
     </ScrollView>
