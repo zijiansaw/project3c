@@ -1,7 +1,7 @@
 //This is a comment from Professor Urness
 //You should put your names in comments...
 
-//This is Project 3C (Midwest : Hell Yes! by Larry, Paxton and Giuliani.
+//This is Project 3C (Midwest : Hell Yes! by Larry, Paxten and Giuliani.
 
 
 package edu.drake.project3c;
@@ -11,6 +11,8 @@ import java.util.Calendar;
 
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.net.Uri;
