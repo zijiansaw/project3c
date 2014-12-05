@@ -9,8 +9,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="50dp"
-        android:src="@drawable/image1" />
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/fav_fact1" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -18,8 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginRight="50dp"
-        android:src="@drawable/image2" />
+        android:layout_marginRight="10dp"
+        android:src="@drawable/fav_fact2" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -27,8 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/imageButton1"
-        android:layout_marginLeft="50dp"
-        android:src="@drawable/image3" />
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/fav_fact3" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -36,8 +36,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/imageButton1"
-        android:layout_marginRight="50dp"
-        android:src="@drawable/image4" />
+        android:layout_marginRight="10dp"
+        android:src="@drawable/fav_fact4" />
     
      <ImageButton
         android:id="@+id/reset"

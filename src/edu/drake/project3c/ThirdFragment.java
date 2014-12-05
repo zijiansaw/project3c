@@ -114,13 +114,13 @@ public class ThirdFragment extends Fragment {
 		imagebtn4.setEnabled(false);
 		dispnum = i;
 		switch (i) {
-			case 0 : image.setImageResource(R.drawable.image1);
+			case 0 : image.setImageResource(R.drawable.fact1);
 				break;
-			case 1 : image.setImageResource(R.drawable.image2);
+			case 1 : image.setImageResource(R.drawable.fact2);
 				break;	
-			case 2 : image.setImageResource(R.drawable.image3);
+			case 2 : image.setImageResource(R.drawable.fact3);
 				break;
-			case 3 : image.setImageResource(R.drawable.image4);
+			case 3 : image.setImageResource(R.drawable.fact4);
 				break;
 		}
 		image.setVisibility(View.VISIBLE);
@@ -141,13 +141,13 @@ public class ThirdFragment extends Fragment {
 			imagebtn4.setEnabled(false);
 			dispnum = i;
 			switch (i) {
-				case 0 : image.setImageResource(R.drawable.image1);
+				case 0 : image.setImageResource(R.drawable.fact1);
 					break;
-				case 1 : image.setImageResource(R.drawable.image2);
+				case 1 : image.setImageResource(R.drawable.fact2);
 					break;	
-				case 2 : image.setImageResource(R.drawable.image3);
+				case 2 : image.setImageResource(R.drawable.fact3);
 					break;
-				case 3 : image.setImageResource(R.drawable.image4);
+				case 3 : image.setImageResource(R.drawable.fact4);
 					break;
 			}
 		
