@@ -39,6 +39,15 @@
         android:layout_marginRight="10dp"
         android:src="@drawable/fav_fact4" />
     
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageButton3"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/fav_fact5" />
+    
      <ImageButton
         android:id="@+id/reset"
         android:layout_width="fill_parent"
@@ -73,7 +82,7 @@
 		android:visibility="invisible"/>
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/lefta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -82,7 +91,7 @@
         android:visibility="invisible" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/righta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"

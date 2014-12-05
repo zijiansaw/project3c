@@ -15,6 +15,7 @@ public class ThirdFragment extends Fragment {
 	ImageButton imagebtn2;
 	ImageButton imagebtn3;
 	ImageButton imagebtn4;
+	ImageButton imagebtn5;
 	ImageButton left;
 	ImageButton right;
 	ImageButton reset;
@@ -64,7 +65,15 @@ public class ThirdFragment extends Fragment {
 				do1(v, 3);
 			}
 		});
-		left = (ImageButton)view.findViewById(R.id.imageButton5);
+		imagebtn5 = (ImageButton)view.findViewById(R.id.imageButton5);
+		imagebtn5.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				do1(v, 4);
+			}
+		});
+		left = (ImageButton)view.findViewById(R.id.lefta);
 		left.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -72,7 +81,7 @@ public class ThirdFragment extends Fragment {
 				left(v);
 			}
 		});
-		right = (ImageButton)view.findViewById(R.id.imageButton6);
+		right = (ImageButton)view.findViewById(R.id.righta);
 		right.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -114,13 +123,15 @@ public class ThirdFragment extends Fragment {
 		imagebtn4.setEnabled(false);
 		dispnum = i;
 		switch (i) {
-			case 0 : image.setImageResource(R.drawable.fact1);
+			case 0 : image.setImageResource(R.drawable.fact2);
 				break;
-			case 1 : image.setImageResource(R.drawable.fact2);
+			case 1 : image.setImageResource(R.drawable.fact5);
 				break;	
-			case 2 : image.setImageResource(R.drawable.fact3);
+			case 2 : image.setImageResource(R.drawable.fact4);
 				break;
-			case 3 : image.setImageResource(R.drawable.fact4);
+			case 3 : image.setImageResource(R.drawable.fact3);
+				break;
+			case 4 : image.setImageResource(R.drawable.fact1);
 				break;
 		}
 		image.setVisibility(View.VISIBLE);
@@ -141,13 +152,15 @@ public class ThirdFragment extends Fragment {
 			imagebtn4.setEnabled(false);
 			dispnum = i;
 			switch (i) {
-				case 0 : image.setImageResource(R.drawable.fact1);
+				case 0 : image.setImageResource(R.drawable.fact2);
 					break;
-				case 1 : image.setImageResource(R.drawable.fact2);
+				case 1 : image.setImageResource(R.drawable.fact5);
 					break;	
-				case 2 : image.setImageResource(R.drawable.fact3);
+				case 2 : image.setImageResource(R.drawable.fact4);
 					break;
-				case 3 : image.setImageResource(R.drawable.fact4);
+				case 3 : image.setImageResource(R.drawable.fact3);
+					break;
+				case 4 : image.setImageResource(R.drawable.fact1);
 					break;
 			}
 		
@@ -155,12 +168,12 @@ public class ThirdFragment extends Fragment {
 	}
 	public void left(View view){
 		int n;
-		if (dispnum ==0) n = 3;
-		else n = (dispnum-1)%4;
+		if (dispnum ==0) n = 4;
+		else n = (dispnum-1)%5;
 		update( n);
 	}
 	public void right(View view){
-		int n = (dispnum+1)%4;
+		int n = (dispnum+1)%5;
 		update( n);
 	}
 	public void reset(View view){
