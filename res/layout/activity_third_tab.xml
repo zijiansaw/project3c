@@ -78,7 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/temp_arw2"
+        android:src="@drawable/leftarrow"
         android:visibility="invisible" />
 
     <ImageButton
@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/temp_arw1" 
+        android:src="@drawable/rightarrow" 
         android:visibility="invisible"/>
 
 </RelativeLayout>
