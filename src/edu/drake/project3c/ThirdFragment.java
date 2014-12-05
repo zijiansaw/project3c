@@ -5,10 +5,11 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.ToggleButton;
 
 public class ThirdFragment extends Fragment {
 	ImageButton imagebtn1;
@@ -16,6 +17,9 @@ public class ThirdFragment extends Fragment {
 	ImageButton imagebtn3;
 	ImageButton imagebtn4;
 	ImageButton imagebtn5;
+	ImageButton imagebtn1a;
+	ImageButton imagebtn2a;
+	ImageButton fav;
 	ImageButton left;
 	ImageButton right;
 	ImageButton reset;
@@ -31,6 +35,10 @@ public class ThirdFragment extends Fragment {
 		//if you want to initialize image/buttons, insert view. in front of findViewById 
 		//refer to FirstFragment for some help =)
 		//by Larry
+		
+		imagebtn1a = (ImageButton)view.findViewById(R.id.imageButton1a);
+		imagebtn2a = (ImageButton)view.findViewById(R.id.imageButton2a);
+		fav = (ImageButton)view.findViewById(R.id.favorite);
 		
 		image = (ImageView) view.findViewById(R.id.imageView1);
 		imagebtn1 = (ImageButton)view.findViewById(R.id.imageButton1);
@@ -139,6 +147,9 @@ public class ThirdFragment extends Fragment {
 		right.setVisibility(View.VISIBLE);
 		reset.setVisibility(View.VISIBLE);
 		buffer.setVisibility(View.VISIBLE);
+		imagebtn1a.setVisibility(View.VISIBLE);
+		imagebtn2a.setVisibility(View.VISIBLE);
+		fav.setVisibility(View.VISIBLE);
 		left.setEnabled(true);
 		right.setEnabled(true);
 		reset.setEnabled(true);
@@ -182,6 +193,9 @@ public class ThirdFragment extends Fragment {
 		right.setVisibility(View.INVISIBLE);
 		reset.setVisibility(View.INVISIBLE);
 		buffer.setVisibility(View.INVISIBLE);
+		imagebtn1a.setVisibility(View.INVISIBLE);
+		imagebtn2a.setVisibility(View.INVISIBLE);
+		fav.setVisibility(View.INVISIBLE);
 		left.setEnabled(false);
 		right.setEnabled(false);
 		reset.setEnabled(false);
