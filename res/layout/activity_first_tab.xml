@@ -45,7 +45,7 @@
         android:layout_height="90dp"
         android:layout_alignBottom="@+id/dailyView"
         android:layout_alignLeft="@+id/dailyView"
-        android:layout_marginBottom="113dp"
+        android:layout_marginBottom="100dp"
         android:layout_marginLeft="22dp"
         android:background="@android:color/transparent"
         android:onClick="goToRayGun"

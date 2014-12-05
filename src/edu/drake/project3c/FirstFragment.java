@@ -38,7 +38,7 @@ public class FirstFragment extends Fragment {
 		
 		SimpleDateFormat df = new SimpleDateFormat("MMMM dd, yyyy");
 		String date = df.format(dayOfYear.getTime());
-		getActivity().setTitle(date);
+		
 			
 		return view;
 
