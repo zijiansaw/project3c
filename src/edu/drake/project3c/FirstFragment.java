@@ -34,7 +34,7 @@ public class FirstFragment extends Fragment {
 		int currentDayOfYear = dayOfYear.get(Calendar.DAY_OF_YEAR);
 		//Toast.makeText(this, "Number of days : "+currentDayOfYear, Toast.LENGTH_SHORT).show();
 		
-		dailyView.setImageResource(images[currentDayOfYear-335]);	
+		dailyView.setImageResource(images[ 0]); //currentDayOfYear-335]);	
 		
 		SimpleDateFormat df = new SimpleDateFormat("MMMM dd, yyyy");
 		String date = df.format(dayOfYear.getTime());

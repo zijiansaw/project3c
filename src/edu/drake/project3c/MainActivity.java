@@ -68,7 +68,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 		});
 		
 	}
-	@Override
+	/*@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
@@ -85,7 +85,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 		}
 		return super.onOptionsItemSelected(item);
 	}
-
+*/
 	@Override
 	public void onTabSelected(Tab tab, FragmentTransaction ft) {
 		viewpager.setCurrentItem(tab.getPosition());
