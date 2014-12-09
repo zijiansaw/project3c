@@ -22,6 +22,8 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -68,7 +70,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 		});
 		
 	}
-	/*@Override
+	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
@@ -79,13 +81,20 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
+		switch(item.getItemId()) 
+	      { 
+	      case R.id.action_settings:
+	         System.out.println("settings");
+	            return true;
+	      case R.id.aboutRaygun:
+	        System.out.println("raygun");
+	        goToUrl ( "http://raygunsite.com/pages/our-story");
+	            return true;
+
+	      }
 		return super.onOptionsItemSelected(item);
 	}
-*/
+
 	@Override
 	public void onTabSelected(Tab tab, FragmentTransaction ft) {
 		viewpager.setCurrentItem(tab.getPosition());

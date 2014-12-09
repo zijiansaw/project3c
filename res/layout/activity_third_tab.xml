@@ -132,5 +132,7 @@
         android:onClick="goToRayGun"
         android:src="@drawable/shop"
         android:visibility="invisible" />
+    
+    
 
 </RelativeLayout>

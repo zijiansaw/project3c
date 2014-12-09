@@ -1116,6 +1116,7 @@ containing a value of this type.
         public static final int whitestar=0x7f02007b;
     }
     public static final class id {
+        public static final int aboutRaygun=0x7f05006f;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1287,9 +1288,6 @@ containing a value of this type.
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
-        public static final int settings=0x7f0c0001;
-        public static final int settings_page=0x7f0c0002;
-        public static final int settingspage=0x7f0c0003;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
