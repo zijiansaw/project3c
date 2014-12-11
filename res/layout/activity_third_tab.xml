@@ -101,10 +101,11 @@
     
     <ImageButton
         android:id="@+id/favorite"
-        android:layout_width="90dp"
-        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
         android:layout_alignBottom="@+id/imageButton1a"
         android:layout_toLeftOf="@+id/imageButton1a"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/goldstar"
         android:visibility="invisible"/>
 
